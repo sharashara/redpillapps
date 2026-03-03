@@ -48,6 +48,7 @@ export function CTASection() {
                   <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                 </a>
               </Button>
+              {/* TODO: Re-enable when scheduling is set up
               <Button
                 asChild
                 variant="outline"
@@ -58,6 +59,7 @@ export function CTASection() {
                   SCHEDULE_CALL
                 </a>
               </Button>
+              */}
             </div>
 
             {/* Email display */}

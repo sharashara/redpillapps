@@ -46,10 +46,6 @@ export function Footer() {
               <span className="w-1.5 h-1.5 rounded-full bg-[#00ff41] animate-pulse" />
               SYSTEMS ONLINE
             </span>
-            <span className="text-zinc-800">|</span>
-            <span>LOS ANGELES, CA</span>
-            <span className="text-zinc-800">|</span>
-            <span>BUILT WITH NEXT.JS</span>
           </div>
         </div>
       </div>
