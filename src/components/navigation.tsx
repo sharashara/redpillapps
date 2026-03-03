@@ -1,10 +1,11 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "motion/react";
+import { motion } from "motion/react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu, X, Terminal } from "lucide-react";
+import { Menu } from "lucide-react";
+import { PillIcon } from "@/components/pill-icon";
 
 const navLinks = [
   { href: "#services", label: "Services" },
@@ -37,9 +38,7 @@ export function Navigation() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2 group">
-          <div className="w-8 h-8 rounded border border-[#00ff41]/40 flex items-center justify-center bg-[#00ff41]/5 group-hover:bg-[#00ff41]/10 group-hover:border-[#00ff41]/60 transition-all">
-            <Terminal className="w-4 h-4 text-[#00ff41]" />
-          </div>
+          <PillIcon className="w-7 h-7" />
           <span className="font-mono font-bold text-sm tracking-wider">
             <span className="text-[#ff0040]">RED</span>
             <span className="text-[#00ff41]">PILL</span>

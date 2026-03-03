@@ -42,6 +42,10 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  icons: {
+    icon: "/pill-icon.svg",
+    apple: "/pill-icon.svg",
+  },
 };
 
 export default function RootLayout({

@@ -1,7 +1,6 @@
 "use client";
 
-import { Separator } from "@/components/ui/separator";
-import { Terminal } from "lucide-react";
+import { PillIcon } from "@/components/pill-icon";
 
 export function Footer() {
   return (
@@ -10,9 +9,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <div className="w-6 h-6 rounded border border-[#00ff41]/30 flex items-center justify-center bg-[#00ff41]/5">
-              <Terminal className="w-3 h-3 text-[#00ff41]" />
-            </div>
+            <PillIcon className="w-5 h-5" />
             <span className="font-mono text-xs tracking-wider">
               <span className="text-[#ff0040]">RED</span>
               <span className="text-[#00ff41]">PILL</span>
