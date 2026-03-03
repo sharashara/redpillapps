@@ -11,9 +11,8 @@ export function Footer() {
           <div className="flex items-center gap-2">
             <PillIcon className="w-5 h-5" />
             <span className="font-mono text-xs tracking-wider">
-              <span className="text-[#ff0040]">RED</span>
-              <span className="text-[#00ff41]">PILL</span>
-              <span className="text-zinc-600">.apps</span>
+              <span className="text-[#ff0040]">redpill</span>
+              <span className="text-[#00ff41]">.apps</span>
             </span>
           </div>
 

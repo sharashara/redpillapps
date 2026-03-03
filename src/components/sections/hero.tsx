@@ -37,22 +37,15 @@ export function HeroSection() {
 
           {/* Main heading */}
           <motion.h1
-            className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-[0.9] mb-2"
+            className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold font-mono tracking-tight leading-[0.9] mb-8"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            <span className="gradient-text-redpill">
-              <GlitchText text="Red Pill" intensity="low" />
+            <span className="text-[#ff0040]">
+              <GlitchText text="redpill" intensity="low" />
             </span>
-          </motion.h1>
-          <motion.h1
-            className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-[0.9] mb-8"
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.6 }}
-          >
-            <span className="gradient-text-matrix">Apps</span>
+            <span className="text-[#00ff41]">.apps</span>
           </motion.h1>
 
           {/* Typing tagline */}

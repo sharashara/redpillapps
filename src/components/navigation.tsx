@@ -40,9 +40,8 @@ export function Navigation() {
         <a href="#" className="flex items-center gap-2 group">
           <PillIcon className="w-7 h-7" />
           <span className="font-mono font-bold text-sm tracking-wider">
-            <span className="text-[#ff0040]">RED</span>
-            <span className="text-[#00ff41]">PILL</span>
-            <span className="text-zinc-400">.apps</span>
+            <span className="text-[#ff0040]">redpill</span>
+            <span className="text-[#00ff41]">.apps</span>
           </span>
         </a>
 
