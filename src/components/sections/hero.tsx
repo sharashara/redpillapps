@@ -4,6 +4,7 @@ import { motion } from "motion/react";
 import { Button } from "@/components/ui/button";
 import { TerminalText } from "@/components/terminal-text";
 import { GlitchText } from "@/components/glitch-text";
+import { PillIcon } from "@/components/pill-icon";
 import { ArrowDown, Zap } from "lucide-react";
 
 export function HeroSection() {
@@ -33,6 +34,16 @@ export function HeroSection() {
             <span className="text-[#00ff41]">[</span> system.init{" "}
             <span className="text-[#00ff41]">]</span> — boutique ai &amp;
             automation studio
+          </motion.div>
+
+          {/* Pill icon */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+            className="mb-6"
+          >
+            <PillIcon className="w-20 h-20 sm:w-24 sm:h-24" />
           </motion.div>
 
           {/* Main heading */}
