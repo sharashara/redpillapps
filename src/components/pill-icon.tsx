@@ -18,9 +18,9 @@ export function PillIcon({ className = "w-5 h-5" }: { className?: string }) {
         {/* Shine */}
         <path d="M25,30 L25,20 Q28,12 35,12 L35,30 Z" fill="white" opacity="0.15" />
         {/* Outline */}
-        <rect x="20" y="6" width="24" height="52" rx="12" stroke="black" strokeWidth="3" fill="none" />
+        <rect x="20" y="6" width="24" height="52" rx="12" stroke="white" strokeWidth="2.5" fill="none" />
         {/* Divider */}
-        <line x1="20" y1="32" x2="44" y2="32" stroke="black" strokeWidth="2.5" />
+        <line x1="20" y1="32" x2="44" y2="32" stroke="white" strokeWidth="2" />
       </g>
     </svg>
   );
